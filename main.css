@@ -80,16 +80,56 @@
 }
 
 .lightbox-content {
-	position: absolute;
-	top:25%;
-	left:25%;
 	z-index: 2;
 	background: #ffffff;
 	width: 50%;
-	padding: 10px;
-	border: 2px solid black;
+	padding: 20px;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
 
+.lightbox-content a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: .8em;
+	background: #ff9999;
+	padding: 8px 30px;
+	display: inline-block;
+	border-radius: 5px
+
+}
+
+.lightbox-content div {
+	float: right;
 }*/
+
+
+/* CSS for media blocks*/
+
+
+.user-img {
+	float: left;
+	padding: 5px;
+}
+
+.status-update {
+	margin-left: 70px;
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
